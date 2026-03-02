@@ -1,0 +1,5 @@
+-keep class com.pivopiev.app.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**
